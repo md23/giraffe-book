@@ -614,7 +614,7 @@
 		var deltaTime;
 
 		_addEvent(documentElement, [EVENT_TOUCHSTART, EVENT_TOUCHMOVE, EVENT_TOUCHCANCEL, EVENT_TOUCHEND].join(' '), function(e) {
-			e.preventDefault();
+			//e.preventDefault();
 
 			var touch = e.changedTouches[0];
 
