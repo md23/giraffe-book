@@ -1,0 +1,16 @@
+.navcontrols{
+	z-index: 2000;
+	position: fixed;
+	bottom: 20px;
+	border-radius: 50px;
+	width: 200px;
+	height: 75px; 
+	background-color: rgba(0,0,0,.5);
+	/* width and height can be anything, as long as they're equal */
+}
+#navleft{
+	left: -50px;
+}
+#navright{
+	right: -50px;
+}
