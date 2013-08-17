@@ -23,20 +23,87 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <link rel="stylesheet" type="text/css" href="css/book.css" />
+        <title>Giraffe</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+        <div class="app" data-0="left:0px" data-4000="left:-4000px">
+            
+            
+            <div class="page" id="one">
+                <img
+                id="title"
+                class="object mainLevel"
+                data-0="left: 100px;"
+                data-800="left: 300px;"
+                src="images/title.png"
+                />
+                <img
+                id="cover"
+                class="object mainLevel"
+                src="images/cover.png"
+                />
+                <img
+                id="lookLeft"
+                class="object mainLevel"
+                data-400="opacity: 0;"
+                data-500="opacity: 1;"
+                data-600="opacity: 0;"
+                src="images/lookLeft.png"
+                />
+                <img
+                id="lookRight"
+                class="object mainLevel"
+                data-500="opacity: 0;"
+                data-600="opacity: 1;"
+                data-700="opacity: 0;"
+                src="images/lookRight.png"
+                src="images/lookRight.png"  />
+                
+            </div><!- one -->
+            
+            
+            
+            <div class="page" id="two">
+                <div
+                    id="picture"
+                    class="object"
+                    data-800="transform:rotate(0deg); -webkit-transform-origin: 100% 50%;"
+                    data-810="transform:rotate(10deg); -webkit-transform-origin: 100% 50%;"
+                    data-830="transform:rotate(10deg); -webkit-transform-origin: 100% 50%;"
+                    data-850="transform:rotate(-10deg); -webkit-transform-origin: 100% 50%;"
+                    data-870="transform:rotate(10deg); -webkit-transform-origin: 100% 50%;"
+                    data-890="transform:rotate(-10deg); -webkit-transform-origin: 100% 50%;"
+                    data-910="transform:rotate(10deg); -webkit-transform-origin: 100% 50%;"
+                    data-930="transform:rotate(-10deg); -webkit-transform-origin: 100% 50%;"
+                    data-950="transform:rotate(10deg); -webkit-transform-origin: 100% 50%;"
+                    data-970="transform:rotate(-10deg); -webkit-transform-origin: 100% 50%;"
+                    data-990="transform:rotate(50deg); top: 300px; -webkit-transform-origin: 100% 50%;"
+                    
+                    data-1024="left: 1250px; top: 10px; transform:rotate(90deg); -webkit-transform-origin: 100% 50%;"
+                    data-1848="left: 1350px;"
+                    >
+                    
+            </div><!- two -->
+            
+            
+            <div class="page" id="three">
+            </div><!- three -->
+            <div class="page" id="four">
+            </div><!- four -->
+            
+            
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/skrollr.js"></script>
         <script type="text/javascript">
-            app.initialize();
+            window.onload = function() {
+				skrollr.init({
+							 forceHeight: true
+							 });
+			}
+			app.initialize();
         </script>
     </body>
 </html>
