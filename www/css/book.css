@@ -7,7 +7,7 @@ body {font-family:sans-serif;
 	left: 0;
 }
 .page{
-	min-width: 1100px;
+	min-width: 1300px;
 	min-height: 768px;
 	display: inline-block;
 }
@@ -21,28 +21,28 @@ body {font-family:sans-serif;
 	/*background-color: #F4F0EC;*/
 	position: absolute;
 	top: 0;
-	left: 1100px;
+	left: 1300px;
 }
 #three{
 	background-color: #B8DCE2;
 	position: absolute;
 	top: 0;
-	left: 2200px;
+	left: 2600px;
 }
 #four{
-	background-color: #B8DCE2;
+	background-color: #123123;
 	position: absolute;
 	top: 0;
-	left: 3300px;
+	left: 3900px;
 }
 .object{
 	position: absolute;
 }
 .mainLevel{
-	margin-left: 60px;
+	margin-top: 60px;
 }
 #cover{
-	top: 50px;
+	top: 150px;
 	left: 500px;
 }
 
@@ -53,31 +53,22 @@ body {font-family:sans-serif;
 
 
 #couch{
-	left: 1400px;
+	left: 350px;
+	top: 350px;
 }
-#lookLeft{
-	left: 750px;
+.lookLeft{
+	left: 900px;
 	top: 100px;
 	z-index: 999;
 }
-#lookRight{
-	left: 1100px;
-	top: 100px;
-	z-index: 999;
-}
-#lookLeft2{
-	left: 1874px;
-	top: 100px;
-	z-index: 999;
-}
-#lookRight2{
-	left: 2224px;
+.lookRight{
+	left: 1300px;
 	top: 100px;
 	z-index: 999;
 }
 #window{
-	left: 1600px;
-	top: 100px;
+	left: 1700px;
+	top: 200px;
 }
 #picture{
 	left: 1350px;
