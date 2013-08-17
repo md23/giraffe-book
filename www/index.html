@@ -29,8 +29,8 @@
     </head>
     <body>
         <div class="controls">
-                <div id="navleft" class="navcontrols"></div>
-                <div id="navright" class="navcontrols"></div>
+                <div id="navleft" class="navcontrols" onclick="prevPage();"></div>
+                <div id="navright" class="navcontrols" onclick="nextPage();"></div>
         </div><!-- controls -->
         <div class="app" data-0="left:0px" data-4000="left:-4000px">
             
@@ -137,7 +137,7 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/skrollr.js"></script>
         <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
-         <script type="text/javascript" src="js/controls.js"></script>
+        <script type="text/javascript" src="js/controls.js"></script>
         <script type="text/javascript">
             window.onload = function() {
 				skrollr.init({
