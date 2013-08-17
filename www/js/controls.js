@@ -11,6 +11,9 @@ $(function() {
 		prevPage();
 	})*/
 
+	$("#navleft").draggable();
+	$("#navright").draggable();
+
 });
 
 function nextPage(){
