@@ -8,6 +8,15 @@
 	background-color: rgba(0,0,0,.5);
 	/* width and height can be anything, as long as they're equal */
 }
+
+.navcontrols a{
+	font-size: 3em;
+	color: white;
+	text-decoration: none;
+	line-height: 65px;
+	margin: 0 50px;
+}
+
 #navleft{
 	left: -50px;
 }

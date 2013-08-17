@@ -11,8 +11,8 @@ $(function() {
 		prevPage();
 	})*/
 
-	$("#navleft").draggable();
-	$("#navright").draggable();
+	/*$("#navleft").draggable();
+	$("#navright").draggable();*/
 
 });
 
