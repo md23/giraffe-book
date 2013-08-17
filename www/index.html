@@ -29,110 +29,116 @@
     </head>
     <body>
         <div class="controls">
-                <div id="navleft" class="navcontrols" onclick="preventDefault();prevPage();"></div>
-                <div id="navright" class="navcontrols" onclick="preventDefault();nextPage();"></div>
+                <div id="navleft" class="navcontrols" onclick="prevPage();"></div>
+                <div id="navright" class="navcontrols" onclick="nextPage();"></div>
         </div><!-- controls -->
-        <div class="app" data-0="left:0px" data-4000="left:-4000px">
-            
-            <div class="page" id="one">
-                <img
-                id="title"
-                class="object mainLevel"
-                data-0="left: 250px;"
-                data-800="left: 450px;"
-                src="images/title.png"
-                />
-                <img
-                id="cover"
-                class="object mainLevel"
-                src="images/cover.png"
-                />
-                <img
-                class="object mainLevel lookLeft"
-                data-400="opacity: 0;"
-                data-500="opacity: 1;"
-                data-600="opacity: 0;"
-                src="images/lookLeft.png"
-                />
-                <img
-                class="object mainLevel lookRight"
-                data-500="opacity: 0;"
-                data-600="opacity: 1;"
-                data-700="opacity: 0;"
-                src="images/lookRight.png"
-                src="images/lookRight.png"  />
+        
+        <div id="skrollr-body">
+
+            <div class="app" data-0="left:0px" data-4000="left:-4000px">
                 
-            </div><!- one -->
-            
-            
-            
-            <div class="page" id="two">
-                <div
-                        id="picture"
-                        class="object"
-                        data-800="transform:rotate(0deg); -webkit-transform-origin: 50% 0%;"
-                        data-810="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
-                        data-830="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
-                        data-850="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
-                        data-870="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
-                        data-890="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
-                        data-910="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
-                        data-930="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
-                        data-950="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
-                        data-970="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
-                        data-990="transform:rotate(50deg); top: 250px;  left: 300px; -webkit-transform-origin: 50% 0%;"
+                <div class="page" id="one">
+                    <img
+                    id="title"
+                    class="object mainLevel"
+                    data-0="left: 250px;"
+                    data-800="left: 450px;"
+                    src="images/title.png"
+                    />
+                    <img
+                    id="cover"
+                    class="object mainLevel"
+                    src="images/cover.png"
+                    />
+                    <img
+                    class="object mainLevel lookLeft"
+                    data-400="opacity: 0;"
+                    data-500="opacity: 1;"
+                    data-600="opacity: 0;"
+                    src="images/lookLeft.png"
+                    />
+                    <img
+                    class="object mainLevel lookRight"
+                    data-500="opacity: 0;"
+                    data-600="opacity: 1;"
+                    data-700="opacity: 0;"
+                    src="images/lookRight.png"
+                    src="images/lookRight.png"  />
+                    
+                </div><!- one -->
+                
+                
+                
+                <div class="page" id="two">
+                    <div
+                            id="picture"
+                            class="object"
+                            data-800="transform:rotate(0deg); -webkit-transform-origin: 50% 0%;"
+                            data-810="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
+                            data-830="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
+                            data-850="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
+                            data-870="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
+                            data-890="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
+                            data-910="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
+                            data-930="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
+                            data-950="transform:rotate(10deg); -webkit-transform-origin: 50% 0%;"
+                            data-970="transform:rotate(-10deg); -webkit-transform-origin: 50% 0%;"
+                            data-990="transform:rotate(50deg); top: 250px;  left: 300px; -webkit-transform-origin: 50% 0%;"
+                            
+                            data-1024="top: 570px; left: 310px; transform:rotate(90deg); -webkit-transform-origin: 50% 0%;"     
+                            >
+                            <img
+                                src="images/picture.png"
+                                data-1024="display: inline;"
+                                data-1025="display: none;"
+                            />
+                            <img
+                                src="images/pictureBroken.png"
+                                data-1024="display: none;"
+                                data-1025="display: inline;"
+                            />
+                        </div>
+                        <img
+                            id="window"
+                            class="object"
+                            data-1024="left: 700px"
+                            data-2048="left: 650px;"
+                            src="images/window.png"
+                        />
+                        <img
+                            id="couch"
+                            class="object mainLevel"
+                            src="images/couch.png"
+                        />
                         
-                        data-1024="top: 570px; left: 310px; transform:rotate(90deg); -webkit-transform-origin: 50% 0%;"     
-                        >
                         <img
-                            src="images/picture.png"
-                            data-1024="display: inline;"
-                            data-1025="display: none;"
+                            class="object mainLevel lookLeft"
+                            data-1500="opacity: 0;"
+                            data-1600="opacity: 1;"
+                            data-1700="opacity: 0;"
+                            src="images/lookLeft.png"
                         />
                         <img
-                            src="images/pictureBroken.png"
-                            data-1024="display: none;"
-                            data-1025="display: inline;"
+                            class="object mainLevel lookRight"
+                            data-1600="opacity: 0;"
+                            data-1700="opacity: 1;"
+                            data-1800="opacity: 0;"
+                            src="images/lookRight.png"
                         />
-                    </div>
-                    <img
-                        id="window"
-                        class="object"
-                        data-1024="left: 700px"
-                        data-2048="left: 650px;"
-                        src="images/window.png"
-                    />
-                    <img
-                        id="couch"
-                        class="object mainLevel"
-                        src="images/couch.png"
-                    />
-                    
-                    <img
-                        class="object mainLevel lookLeft"
-                        data-1500="opacity: 0;"
-                        data-1600="opacity: 1;"
-                        data-1700="opacity: 0;"
-                        src="images/lookLeft.png"
-                    />
-                    <img
-                        class="object mainLevel lookRight"
-                        data-1600="opacity: 0;"
-                        data-1700="opacity: 1;"
-                        data-1800="opacity: 0;"
-                        src="images/lookRight.png"
-                    />
-                    
-            </div><!- two -->
-            
-            
-            <div class="page" id="three">
-            </div><!- three -->
-            <div class="page" id="four">
-            </div><!- four -->
-            
-            
+                        
+                </div><!- two -->
+                
+                
+                <div class="page" id="three">
+                </div><!- three -->
+                <div class="page" id="four">
+                </div><!- four -->
+                
+                
+            </div>
+
         </div>
+        
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/skrollr.js"></script>
