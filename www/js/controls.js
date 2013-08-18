@@ -5,12 +5,12 @@ var totalSpeed = 4000;
 $(function() {
     
 	totalPages = $('.page').size();
-	/*$("#navright").click(function(){
+	$("#navright").click(function(){
 		nextPage();
 	})
 	$("#navleft").click(function(){
 		prevPage();
-	})*/
+	})
 
 	/*$("#navleft").draggable();
 	$("#navright").draggable();*/
