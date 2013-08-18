@@ -2,6 +2,9 @@
 	min-width: 6000px;
 
 }
+#skrollr-body{
+	position: fixed;
+}
 .page{
 	width: 1300px;
 	height: 768px;
