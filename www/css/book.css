@@ -14,30 +14,30 @@ body {font-family:sans-serif;
 
 #one{
 	background: -webkit-linear-gradient(top, #f4f0ec 0%,#b8dce2 100%);
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 0px;
 }
 #two{
 	/*background-color: #F4F0EC;*/
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 1300px;
 }
 #three{
 	background-color: #B8DCE2;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 2600px;
 }
 #four{
 	background-color: #123123;
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 3900px;
 }
 .object{
-	position: absolute;
+	/*position: absolute;*/
 }
 .mainLevel{
 	margin-top: 60px;
@@ -60,12 +60,12 @@ body {font-family:sans-serif;
 .lookLeft{
 	left: 900px;
 	top: 150px;
-	/*z-index: 3002;*/
+	z-index: 3002;
 }
 .lookRight{
 	left: 1300px;
 	top: 150px;
-	/*z-index: 3001;*/
+	z-index: 3001;
 }
 #window{
 	left: 1700px;
@@ -78,8 +78,8 @@ body {font-family:sans-serif;
 
 .transfade{
 	width:2000px;
-	height: 500px;
+	height: 800px;
 	background-color: rgba(0,0,0,1);
 	margin-top: -50;
-	/*z-index: 3000;*/
+	z-index: 3000;
 }
