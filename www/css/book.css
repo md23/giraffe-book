@@ -6,12 +6,6 @@ body {font-family:sans-serif;
 	top: 0;
 	left: 0;
 }
-.page{
-	min-width: 1300px;
-	min-height: 768px;
-	display: inline-block;
-}
-
 
 .object{
 	position: absolute;
