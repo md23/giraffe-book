@@ -2,7 +2,7 @@ body {font-family:sans-serif;
 	min-width: 6000px;
 }
 .app{
-	
+	position:fixed;
 	top: 0;
 	left: 0;
 }
@@ -60,12 +60,12 @@ body {font-family:sans-serif;
 .lookLeft{
 	left: 900px;
 	top: 150px;
-	z-index: 3002;
+	/*z-index: 3002;*/
 }
 .lookRight{
 	left: 1300px;
 	top: 150px;
-	z-index: 3001;
+	/*z-index: 3001;*/
 }
 #window{
 	left: 1700px;
@@ -78,8 +78,8 @@ body {font-family:sans-serif;
 
 .transfade{
 	width:2000px;
-	height: 800px;
+	height: 500px;
 	background-color: rgba(0,0,0,1);
 	margin-top: -50;
-	z-index: 3000;
+	/*z-index: 3000;*/
 }
