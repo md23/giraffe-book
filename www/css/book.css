@@ -1,8 +1,6 @@
 .app{
 	min-width: 6000px;
-	position:fixed;
-	top: 0;
-	left: 0;
+
 }
 .page{
 	width: 1300px;
