@@ -12,31 +12,6 @@ body {font-family:sans-serif;
 	display: inline-block;
 }
 
-#one{
-	background: -webkit-linear-gradient(top, #f4f0ec 0%,#b8dce2 100%);
-	position: absolute;
-	top: 0;
-	left: 0px;
-}
-#two{
-	/*background-color: #F4F0EC;*/
-	position: absolute;
-	top: 0;
-	left: 1300px;
-}
-#three{
-	background-color: #B8DCE2;
-	position: absolute;
-	top: 0;
-	left: 2600px;
-}
-#four{
-	background-color: #123123;
-	position: absolute;
-	top: 0;
-	left: 3900px;
-}
-
 .mainLevel{
 	margin-top: 60px;
 }
