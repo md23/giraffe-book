@@ -6,32 +6,13 @@ body {font-family:sans-serif;
 	top: 0;
 	left: 0;
 }
+.page{
+	min-width: 1300px;
+	min-height: 768px;
+	display: inline-block;
+}
 
 
-#one{
-	background: -webkit-linear-gradient(top, #f4f0ec 0%,#b8dce2 100%);
-	position: absolute;
-	top: 0;
-	left: 0px;
-}
-#two{
-	/*background-color: #F4F0EC;*/
-	position: absolute;
-	top: 0;
-	left: 1300px;
-}
-#three{
-	background-color: #B8DCE2;
-	position: absolute;
-	top: 0;
-	left: 2600px;
-}
-#four{
-	background-color: #123123;
-	position: absolute;
-	top: 0;
-	left: 3900px;
-}
 .object{
 	position: absolute;
 }
